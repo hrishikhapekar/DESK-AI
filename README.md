@@ -23,7 +23,6 @@ DESK-AI is a Python-based desktop voice assistant that listens to user commands,
 ## Project structure
 
 ````markdown
-```text
 DESK-AI/
 │
 ├── __pycache__/          # Python cache files
@@ -43,7 +42,6 @@ DESK-AI/
 ├── main.py               # Application entry point
 ├── requirements.txt      # Project dependencies
 └── .gitignore            # Git ignore rules
-```
 ````
 
 ## Installation & Setup
@@ -54,25 +52,31 @@ DESK-AI/
    cd DESK-AI
 
 2. Create & activate a virtual environment (recommended)
-
+   ``` bash
    python -m venv venv
-   # Windows
+   ```
+   ### Windows
+   ``` bash
    venv\Scripts\activate
-   # macOS / Linux
-   source venv/bin/activate
+   ```
 
 3. Install dependencies
-
+   ``` bash
    pip install -r requirements.txt
+   ```
 
 ## Running
 
 Make sure your microphone is enabled and accessible before running the application.
 
 Start the assistant:
-
-    python main.py
-
+   ``` bash
+      python UI.py
+   ```
+   OR
+   ``` bash
+      python main.py
+   ```
 ## How it works (high-level flow)
 
 1. voice_listener captures the user’s voice
@@ -116,4 +120,7 @@ This project is open-source and available under the MIT License.
 
 ---
 
-*README generated and added to the repository by GitHub Copilot.*
+*Contributers of this Project*
+Akshay Thakur : @CodeArtisanAksahy
+Hrishi Khapekar : @hrishikhapekar
+Shrikant Agrawal : @agrawalsb
