@@ -1,0 +1,789 @@
+2025-10-24 14:54:21 | INFO     | SYSTEM          | ============================================================
+2025-10-24 14:54:21 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 14:54:21 | INFO     | SYSTEM          | Session started at: 2025-10-24 14:54:21
+2025-10-24 14:54:21 | INFO     | SYSTEM          | ============================================================
+2025-10-24 14:54:21 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 14:54:21 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 14:54:22 | INFO     | INIT            | STT Engine initialized
+2025-10-24 14:54:22 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 14:54:22 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 14:54:22 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 14:54:23 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 14:54:23 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 14:54:23 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 14:54:24 | INFO     | SYSTEM          | ============================================================
+2025-10-24 14:54:24 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 14:54:24 | INFO     | SYSTEM          | Session started at: 2025-10-24 14:54:24
+2025-10-24 14:54:24 | INFO     | SYSTEM          | ============================================================
+2025-10-24 14:54:24 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 14:54:24 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 14:54:24 | INFO     | INIT            | STT Engine initialized
+2025-10-24 14:54:25 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 14:54:25 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 14:54:25 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 14:54:25 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 14:54:25 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 14:54:25 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 14:54:45 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 14:54:45 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 14:56:06 | INFO     | SYSTEM          | ============================================================
+2025-10-24 14:56:06 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 14:56:06 | INFO     | SYSTEM          | Session started at: 2025-10-24 14:56:06
+2025-10-24 14:56:06 | INFO     | SYSTEM          | ============================================================
+2025-10-24 14:56:06 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 14:56:06 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 14:56:07 | INFO     | INIT            | STT Engine initialized
+2025-10-24 14:56:07 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 14:56:07 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 14:56:07 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 14:56:08 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 14:56:08 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 14:56:08 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 14:56:11 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 14:56:19 | INFO     | STT             | STT Result: 'open again collector' (duration: 6.6s)
+2025-10-24 14:56:19 | INFO     | USER            | User Command: 'open again collector'
+2025-10-24 14:56:19 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'again collector'}
+2025-10-24 14:56:19 | INFO     | EXECUTION       | Execution SUCCESS: [app] Attempting to open again collector
+2025-10-24 14:56:19 | INFO     | TTS             | TTS Output: 'Attempting to open again collector'
+2025-10-24 14:56:27 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 14:56:34 | INFO     | STT             | STT Result: 'open calculator' (duration: 6.0s)
+2025-10-24 14:56:34 | INFO     | USER            | User Command: 'open calculator'
+2025-10-24 14:56:34 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'calculator'}
+2025-10-24 14:56:34 | INFO     | EXECUTION       | Execution SUCCESS: [app] Opening calculator
+2025-10-24 14:56:34 | INFO     | TTS             | TTS Output: 'Opening calculator'
+2025-10-24 14:56:39 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 14:56:45 | INFO     | STT             | STT Result: 'wait' (duration: 5.1s)
+2025-10-24 14:56:45 | INFO     | USER            | User Command: 'wait'
+2025-10-24 14:56:45 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'wait', 'confidence': 0.0}
+2025-10-24 14:56:45 | WARNING  | NLP             | Unknown intent: wait
+2025-10-24 14:56:47 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-24 14:56:47 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-24 14:56:47 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-24 14:56:47 | INFO     | SYSTEM          | ============================================================
+2025-10-24 14:56:47 | INFO     | SYSTEM          | Session ended at: 2025-10-24 14:56:47
+2025-10-24 14:56:47 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:01:20 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:01:20 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 15:01:20 | INFO     | SYSTEM          | Session started at: 2025-10-24 15:01:20
+2025-10-24 15:01:20 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:01:20 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 15:01:20 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 15:01:21 | INFO     | INIT            | STT Engine initialized
+2025-10-24 15:01:21 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 15:01:22 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 15:01:22 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 15:01:23 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 15:01:23 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 15:01:23 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 15:01:27 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:01:36 | INFO     | STT             | STT Result: 'open spotify' (duration: 8.6s)
+2025-10-24 15:01:36 | INFO     | USER            | User Command: 'open spotify'
+2025-10-24 15:01:36 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'spotify'}
+2025-10-24 15:01:36 | INFO     | EXECUTION       | Execution SUCCESS: [app] Opening spotify
+2025-10-24 15:01:36 | INFO     | TTS             | TTS Output: 'Opening spotify'
+2025-10-24 15:02:15 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:02:23 | INFO     | STT             | STT Result: 'add one plus one in calculator' (duration: 8.1s)
+2025-10-24 15:02:23 | INFO     | USER            | User Command: 'add one plus one in calculator'
+2025-10-24 15:02:23 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'add one plus one in calculator', 'confidence': 0.0}
+2025-10-24 15:02:23 | WARNING  | NLP             | Unknown intent: add one plus one in calculator
+2025-10-24 15:02:30 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-24 15:02:30 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-24 15:02:30 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-24 15:02:30 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:02:30 | INFO     | SYSTEM          | Session ended at: 2025-10-24 15:02:30
+2025-10-24 15:02:30 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:04:37 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:04:37 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 15:04:37 | INFO     | SYSTEM          | Session started at: 2025-10-24 15:04:37
+2025-10-24 15:04:37 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:04:37 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 15:04:38 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 15:04:38 | INFO     | INIT            | STT Engine initialized
+2025-10-24 15:04:39 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 15:04:39 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 15:04:39 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 15:04:39 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 15:04:39 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 15:04:39 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 15:04:43 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:04:51 | INFO     | STT             | STT Result: 'open for leader named portfolio' (duration: 7.6s)
+2025-10-24 15:04:51 | INFO     | USER            | User Command: 'open for leader named portfolio'
+2025-10-24 15:04:51 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'for leader named portfolio'}
+2025-10-24 15:04:52 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find for leader named portfolio on your system
+2025-10-24 15:04:52 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find for leader named portfolio on your system'
+2025-10-24 15:04:57 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:05:06 | INFO     | STT             | STT Result: 'open folder named portfolio' (duration: 8.6s)
+2025-10-24 15:05:06 | INFO     | USER            | User Command: 'open folder named portfolio'
+2025-10-24 15:05:06 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'folder named portfolio'}
+2025-10-24 15:05:06 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find folder named portfolio on your system
+2025-10-24 15:05:06 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find folder named portfolio on your system'
+2025-10-24 15:05:12 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-24 15:05:12 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-24 15:05:12 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-24 15:05:12 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:05:12 | INFO     | SYSTEM          | Session ended at: 2025-10-24 15:05:12
+2025-10-24 15:05:12 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:05:54 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:05:54 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 15:05:54 | INFO     | SYSTEM          | Session started at: 2025-10-24 15:05:54
+2025-10-24 15:05:54 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:05:54 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 15:05:54 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 15:05:55 | INFO     | INIT            | STT Engine initialized
+2025-10-24 15:05:56 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 15:05:56 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 15:05:56 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 15:05:57 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 15:05:57 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 15:05:57 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 15:06:06 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:06:14 | INFO     | STT             | STT Result: 'open not bad' (duration: 7.5s)
+2025-10-24 15:06:15 | INFO     | USER            | User Command: 'open not bad'
+2025-10-24 15:06:15 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'not bad'}
+2025-10-24 15:06:16 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find not bad on your system
+2025-10-24 15:06:16 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find not bad on your system'
+2025-10-24 15:06:28 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:06:37 | INFO     | STT             | STT Result: 'open not bad' (duration: 8.6s)
+2025-10-24 15:06:37 | INFO     | USER            | User Command: 'open not bad'
+2025-10-24 15:06:37 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'not bad'}
+2025-10-24 15:06:37 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find not bad on your system
+2025-10-24 15:06:37 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find not bad on your system'
+2025-10-24 15:06:43 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:06:52 | INFO     | STT             | STT Result: 'open and or dpj this' (duration: 8.6s)
+2025-10-24 15:06:52 | INFO     | USER            | User Command: 'open and or dpj this'
+2025-10-24 15:06:52 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'and or dpj this'}
+2025-10-24 15:06:52 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find and or dpj this on your system
+2025-10-24 15:06:52 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find and or dpj this on your system'
+2025-10-24 15:07:01 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:07:10 | INFO     | STT             | STT Result: 'open lot of bird' (duration: 8.1s)
+2025-10-24 15:07:10 | INFO     | USER            | User Command: 'open lot of bird'
+2025-10-24 15:07:10 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'lot of bird'}
+2025-10-24 15:07:10 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find lot of bird on your system
+2025-10-24 15:07:10 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find lot of bird on your system'
+2025-10-24 15:07:13 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-24 15:07:13 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-24 15:07:13 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-24 15:07:13 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:07:13 | INFO     | SYSTEM          | Session ended at: 2025-10-24 15:07:13
+2025-10-24 15:07:13 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:12:45 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:12:45 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 15:12:45 | INFO     | SYSTEM          | Session started at: 2025-10-24 15:12:45
+2025-10-24 15:12:45 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:12:45 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 15:12:45 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 15:12:46 | INFO     | INIT            | STT Engine initialized
+2025-10-24 15:12:46 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 15:12:47 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 15:12:47 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 15:12:47 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 15:12:47 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 15:12:47 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 15:13:07 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:13:15 | INFO     | STT             | STT Result: 'open folder named portfolio' (duration: 7.6s)
+2025-10-24 15:13:15 | INFO     | USER            | User Command: 'open folder named portfolio'
+2025-10-24 15:13:15 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'folder named portfolio'}
+2025-10-24 15:13:29 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find folder named portfolio on your system
+2025-10-24 15:13:29 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find folder named portfolio on your system'
+2025-10-24 15:13:55 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:14:03 | INFO     | STT             | STT Result: 'work for you' (duration: 7.0s)
+2025-10-24 15:14:03 | INFO     | USER            | User Command: 'work for you'
+2025-10-24 15:14:03 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'work for you', 'confidence': 0.0}
+2025-10-24 15:14:03 | WARNING  | NLP             | Unknown intent: work for you
+2025-10-24 15:14:06 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:14:13 | INFO     | STT             | STT Result: 'open portfolio' (duration: 6.6s)
+2025-10-24 15:14:13 | INFO     | USER            | User Command: 'open portfolio'
+2025-10-24 15:14:13 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'portfolio'}
+2025-10-24 15:14:20 | INFO     | EXECUTION       | Execution SUCCESS: [folder] Opening portfolio folder
+2025-10-24 15:14:20 | INFO     | TTS             | TTS Output: 'Opening portfolio folder'
+2025-10-24 15:14:29 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-24 15:14:29 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-24 15:14:30 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-24 15:14:30 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:14:30 | INFO     | SYSTEM          | Session ended at: 2025-10-24 15:14:30
+2025-10-24 15:14:30 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:15:50 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:15:50 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 15:15:50 | INFO     | SYSTEM          | Session started at: 2025-10-24 15:15:50
+2025-10-24 15:15:50 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:15:50 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 15:15:50 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 15:15:51 | INFO     | INIT            | STT Engine initialized
+2025-10-24 15:15:51 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 15:15:52 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 15:15:52 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 15:15:52 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 15:15:52 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 15:15:52 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 15:15:56 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:16:04 | INFO     | STT             | STT Result: 'open not bad' (duration: 8.1s)
+2025-10-24 15:16:04 | INFO     | USER            | User Command: 'open not bad'
+2025-10-24 15:16:04 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'not bad'}
+2025-10-24 15:16:12 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find not bad on your system
+2025-10-24 15:16:12 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find not bad on your system'
+2025-10-24 15:16:29 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:16:37 | INFO     | STT             | STT Result: 'no to bag' (duration: 7.1s)
+2025-10-24 15:16:37 | INFO     | USER            | User Command: 'no to bag'
+2025-10-24 15:16:37 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'no to bag', 'confidence': 0.0}
+2025-10-24 15:16:37 | WARNING  | NLP             | Unknown intent: no to bag
+2025-10-24 15:16:43 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:16:50 | INFO     | STT             | STT Result: 'cool been notified as' (duration: 6.6s)
+2025-10-24 15:16:50 | INFO     | USER            | User Command: 'cool been notified as'
+2025-10-24 15:16:50 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'cool been notified as', 'confidence': 0.0}
+2025-10-24 15:16:50 | WARNING  | NLP             | Unknown intent: cool been notified as
+2025-10-24 15:17:04 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:17:12 | INFO     | STT             | STT Result: 'open or time' (duration: 7.1s)
+2025-10-24 15:17:12 | INFO     | USER            | User Command: 'open or time'
+2025-10-24 15:17:12 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'or time'}
+2025-10-24 15:17:19 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find or time on your system
+2025-10-24 15:17:19 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find or time on your system'
+2025-10-24 15:17:27 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:17:33 | INFO     | STT             | STT Result: 'what ifs time' (duration: 5.5s)
+2025-10-24 15:17:33 | INFO     | USER            | User Command: 'what ifs time'
+2025-10-24 15:17:33 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'what ifs time', 'confidence': 0.0}
+2025-10-24 15:17:33 | WARNING  | NLP             | Unknown intent: what ifs time
+2025-10-24 15:17:41 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:17:49 | INFO     | STT             | STT Result: 'what is doing' (duration: 7.0s)
+2025-10-24 15:17:49 | INFO     | USER            | User Command: 'what is doing'
+2025-10-24 15:17:49 | DEBUG    | NLP             | Parsed Intent: {'intent': 'search', 'confidence': 0.8, 'query': 'doing'}
+2025-10-24 15:17:49 | INFO     | EXECUTION       | Execution SUCCESS: [web] Searching for doing
+2025-10-24 15:17:49 | INFO     | TTS             | TTS Output: 'Searching for doing'
+2025-10-24 15:17:57 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-24 15:17:57 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-24 15:17:57 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-24 15:17:57 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:17:57 | INFO     | SYSTEM          | Session ended at: 2025-10-24 15:17:57
+2025-10-24 15:17:57 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:18:40 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:18:40 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-24 15:18:40 | INFO     | SYSTEM          | Session started at: 2025-10-24 15:18:40
+2025-10-24 15:18:40 | INFO     | SYSTEM          | ============================================================
+2025-10-24 15:18:40 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-24 15:18:41 | INFO     | INIT            | TTS Engine initialized
+2025-10-24 15:18:41 | INFO     | INIT            | STT Engine initialized
+2025-10-24 15:18:42 | INFO     | INIT            | NLP Engine initialized
+2025-10-24 15:18:42 | INFO     | INIT            | Command Mapper initialized
+2025-10-24 15:18:42 | INFO     | INIT            | Execution Engine initialized
+2025-10-24 15:18:42 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-24 15:18:42 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-24 15:18:42 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-24 15:18:46 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-24 15:18:52 | INFO     | STT             | STT Result: 'not bad' (duration: 6.0s)
+2025-10-24 15:18:52 | INFO     | USER            | User Command: 'not bad'
+2025-10-24 15:18:52 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'not bad', 'confidence': 0.0}
+2025-10-24 15:18:52 | WARNING  | NLP             | Unknown intent: not bad
+2025-10-26 15:34:51 | INFO     | SYSTEM          | ============================================================
+2025-10-26 15:34:51 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-26 15:34:51 | INFO     | SYSTEM          | Session started at: 2025-10-26 15:34:51
+2025-10-26 15:34:51 | INFO     | SYSTEM          | ============================================================
+2025-10-26 15:34:51 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-26 15:34:51 | INFO     | INIT            | TTS Engine initialized
+2025-10-26 15:34:52 | INFO     | INIT            | STT Engine initialized
+2025-10-26 15:34:53 | INFO     | INIT            | NLP Engine initialized
+2025-10-26 15:34:54 | INFO     | INIT            | Command Mapper initialized
+2025-10-26 15:34:54 | INFO     | INIT            | Execution Engine initialized
+2025-10-26 15:34:54 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-26 15:34:54 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-26 15:34:54 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-26 15:35:07 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 15:35:14 | INFO     | STT             | STT Result: 'what been supportive or' (duration: 6.2s)
+2025-10-26 15:35:14 | INFO     | USER            | User Command: 'what been supportive or'
+2025-10-26 15:35:14 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'what been supportive or', 'confidence': 0.0}
+2025-10-26 15:35:14 | WARNING  | NLP             | Unknown intent: what been supportive or
+2025-10-26 15:35:18 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 15:35:26 | INFO     | STT             | STT Result: 'or sporty bikes' (duration: 7.6s)
+2025-10-26 15:35:26 | INFO     | USER            | User Command: 'or sporty bikes'
+2025-10-26 15:35:26 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'or sporty bikes', 'confidence': 0.0}
+2025-10-26 15:35:26 | WARNING  | NLP             | Unknown intent: or sporty bikes
+2025-10-26 15:35:31 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 15:35:39 | INFO     | STT             | STT Result: 'open chrome' (duration: 7.1s)
+2025-10-26 15:35:39 | INFO     | USER            | User Command: 'open chrome'
+2025-10-26 15:35:39 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'chrome'}
+2025-10-26 15:35:39 | INFO     | EXECUTION       | Execution SUCCESS: [app] Opening chrome
+2025-10-26 15:35:39 | INFO     | TTS             | TTS Output: 'Opening chrome'
+2025-10-26 15:35:43 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-26 15:35:43 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-26 15:35:44 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-26 15:35:44 | INFO     | SYSTEM          | ============================================================
+2025-10-26 15:35:44 | INFO     | SYSTEM          | Session ended at: 2025-10-26 15:35:44
+2025-10-26 15:35:44 | INFO     | SYSTEM          | ============================================================
+2025-10-26 15:35:45 | INFO     | SYSTEM          | ============================================================
+2025-10-26 15:35:45 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-26 15:35:45 | INFO     | SYSTEM          | Session started at: 2025-10-26 15:35:45
+2025-10-26 15:35:45 | INFO     | SYSTEM          | ============================================================
+2025-10-26 15:35:45 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-26 15:35:45 | INFO     | INIT            | TTS Engine initialized
+2025-10-26 15:35:46 | INFO     | INIT            | STT Engine initialized
+2025-10-26 15:35:46 | INFO     | INIT            | NLP Engine initialized
+2025-10-26 15:35:47 | INFO     | INIT            | Command Mapper initialized
+2025-10-26 15:35:47 | INFO     | INIT            | Execution Engine initialized
+2025-10-26 15:37:28 | INFO     | SYSTEM          | ============================================================
+2025-10-26 15:37:28 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-26 15:37:28 | INFO     | SYSTEM          | Session started at: 2025-10-26 15:37:28
+2025-10-26 15:37:28 | INFO     | SYSTEM          | ============================================================
+2025-10-26 15:37:28 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-26 15:37:28 | INFO     | INIT            | TTS Engine initialized
+2025-10-26 15:37:29 | INFO     | INIT            | STT Engine initialized
+2025-10-26 15:37:29 | INFO     | INIT            | NLP Engine initialized
+2025-10-26 15:37:29 | INFO     | INIT            | Command Mapper initialized
+2025-10-26 15:37:29 | INFO     | INIT            | Execution Engine initialized
+2025-10-26 15:37:30 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-26 15:37:30 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-26 15:37:30 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-26 15:37:50 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 15:37:57 | INFO     | STT             | STT Result: 'start down' (duration: 7.1s)
+2025-10-26 15:37:57 | INFO     | USER            | User Command: 'start down'
+2025-10-26 15:37:57 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'down'}
+2025-10-26 15:38:14 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find down on your system
+2025-10-26 15:38:14 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find down on your system'
+2025-10-26 15:38:22 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 15:38:28 | INFO     | STT             | STT Result: 'lock' (duration: 5.6s)
+2025-10-26 15:38:28 | INFO     | USER            | User Command: 'lock'
+2025-10-26 15:38:28 | DEBUG    | NLP             | Parsed Intent: {'intent': 'system_command', 'confidence': 0.8, 'command': 'lock'}
+2025-10-26 15:38:28 | INFO     | EXECUTION       | Execution SUCCESS: [system] Locking the computer
+2025-10-26 15:38:28 | INFO     | TTS             | TTS Output: 'Locking the computer'
+2025-10-26 15:38:34 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 15:38:42 | INFO     | STT             | STT Result: 'restart' (duration: 7.1s)
+2025-10-26 15:38:42 | INFO     | USER            | User Command: 'restart'
+2025-10-26 15:38:42 | DEBUG    | NLP             | Parsed Intent: {'intent': 'system_command', 'confidence': 0.8, 'command': 'restart'}
+2025-10-26 15:38:42 | INFO     | EXECUTION       | Execution SUCCESS: [system] Restarting in 30 seconds
+2025-10-26 15:38:42 | INFO     | TTS             | TTS Output: 'Restarting in 30 seconds'
+2025-10-26 20:48:23 | INFO     | SYSTEM          | ============================================================
+2025-10-26 20:48:23 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-26 20:48:23 | INFO     | SYSTEM          | Session started at: 2025-10-26 20:48:23
+2025-10-26 20:48:23 | INFO     | SYSTEM          | ============================================================
+2025-10-26 20:48:23 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-26 20:48:23 | INFO     | INIT            | TTS Engine initialized
+2025-10-26 20:48:24 | INFO     | INIT            | STT Engine initialized
+2025-10-26 20:48:24 | INFO     | INIT            | NLP Engine initialized
+2025-10-26 20:48:25 | INFO     | INIT            | Command Mapper initialized
+2025-10-26 20:48:25 | INFO     | INIT            | Execution Engine initialized
+2025-10-26 20:48:26 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-26 20:48:26 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-26 20:48:26 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-26 20:48:32 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 20:48:44 | INFO     | STT             | STT Result: 'the have already been open like that wouldn't have been up with better protected the last one no' (duration: 10.7s)
+2025-10-26 20:48:44 | INFO     | USER            | User Command: 'the have already been open like that wouldn't have been up with better protected the last one no'
+2025-10-26 20:48:44 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': "like that wouldn't have been up with better protected the last one no"}
+2025-10-26 20:48:57 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find like that wouldn't have been up with better protected the last one no on your system
+2025-10-26 20:48:57 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find like that wouldn't have been up with better protected the last one no on your system'
+2025-10-26 20:49:39 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-26 20:49:39 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-26 20:49:39 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-26 20:49:39 | INFO     | SYSTEM          | ============================================================
+2025-10-26 20:49:39 | INFO     | SYSTEM          | Session ended at: 2025-10-26 20:49:39
+2025-10-26 20:49:39 | INFO     | SYSTEM          | ============================================================
+2025-10-26 20:49:52 | INFO     | SYSTEM          | ============================================================
+2025-10-26 20:49:52 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-26 20:49:52 | INFO     | SYSTEM          | Session started at: 2025-10-26 20:49:52
+2025-10-26 20:49:52 | INFO     | SYSTEM          | ============================================================
+2025-10-26 20:49:52 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-26 20:49:52 | INFO     | INIT            | TTS Engine initialized
+2025-10-26 20:49:53 | INFO     | INIT            | STT Engine initialized
+2025-10-26 20:49:54 | INFO     | INIT            | NLP Engine initialized
+2025-10-26 20:49:54 | INFO     | INIT            | Command Mapper initialized
+2025-10-26 20:49:54 | INFO     | INIT            | Execution Engine initialized
+2025-10-26 20:49:54 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-26 20:49:54 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-26 20:49:54 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-26 20:50:05 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 20:50:13 | INFO     | STT             | STT Result: 'open portfolio' (duration: 7.6s)
+2025-10-26 20:50:13 | INFO     | USER            | User Command: 'open portfolio'
+2025-10-26 20:50:13 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'portfolio'}
+2025-10-26 20:50:19 | INFO     | EXECUTION       | Execution SUCCESS: [folder] Opening portfolio folder
+2025-10-26 20:50:19 | INFO     | TTS             | TTS Output: 'Opening portfolio folder'
+2025-10-26 20:50:26 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 20:50:33 | INFO     | STT             | STT Result: 'open what's up' (duration: 7.1s)
+2025-10-26 20:50:33 | INFO     | USER            | User Command: 'open what's up'
+2025-10-26 20:50:33 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': "what's up"}
+2025-10-26 20:50:40 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find what's up on your system
+2025-10-26 20:50:40 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find what's up on your system'
+2025-10-26 20:50:40 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-26 20:50:48 | INFO     | STT             | STT Result: 'opens forty five' (duration: 7.1s)
+2025-10-26 20:50:48 | INFO     | USER            | User Command: 'opens forty five'
+2025-10-26 20:50:48 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'opens forty five', 'confidence': 0.0}
+2025-10-26 20:50:48 | WARNING  | NLP             | Unknown intent: opens forty five
+2025-10-26 20:50:49 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-26 20:50:49 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-26 20:50:50 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-26 20:50:50 | INFO     | SYSTEM          | ============================================================
+2025-10-26 20:50:50 | INFO     | SYSTEM          | Session ended at: 2025-10-26 20:50:50
+2025-10-26 20:50:50 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:28:23 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:28:23 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:28:23 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:28:23
+2025-10-27 17:28:23 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:28:23 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-27 17:28:23 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:28:24 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:28:25 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:28:26 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:28:26 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:28:26 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:28:26 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:28:26 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:28:30 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:28:39 | INFO     | STT             | STT Result: 'open spot' (duration: 8.6s)
+2025-10-27 17:28:39 | INFO     | USER            | User Command: 'open spot'
+2025-10-27 17:28:39 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'spot'}
+2025-10-27 17:28:39 | INFO     | EXECUTION       | Execution SUCCESS: [app] Opening spotify
+2025-10-27 17:28:39 | INFO     | TTS             | TTS Output: 'Opening spotify'
+2025-10-27 17:28:50 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:28:56 | INFO     | STT             | STT Result: 'open what's up' (duration: 5.6s)
+2025-10-27 17:28:56 | INFO     | USER            | User Command: 'open what's up'
+2025-10-27 17:28:56 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': "what's up"}
+2025-10-27 17:29:12 | ERROR    | EXECUTION       | Execution FAILED: [error] Sorry, I could not find what's up on your system
+2025-10-27 17:29:12 | INFO     | TTS             | TTS Output: 'Sorry, Sorry, I could not find what's up on your system'
+2025-10-27 17:35:47 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:35:47 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:35:47 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:35:47
+2025-10-27 17:35:47 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:35:47 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-27 17:35:47 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:35:49 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:35:49 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:35:50 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:35:50 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:35:52 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:35:52 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:35:52 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:35:57 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:36:05 | INFO     | STT             | STT Result: 'open grown' (duration: 7.6s)
+2025-10-27 17:36:05 | INFO     | USER            | User Command: 'open grown'
+2025-10-27 17:36:05 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'grown'}
+2025-10-27 17:36:11 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-27 17:36:11 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 17:36:11 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 17:36:11 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:36:11 | INFO     | SYSTEM          | Session ended at: 2025-10-27 17:36:11
+2025-10-27 17:36:11 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:36:50 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:36:50 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:36:50 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:36:50
+2025-10-27 17:36:50 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:36:50 | INFO     | SYSTEM          | System Event: DeskAI Starting Up (UI Mode)
+2025-10-27 17:36:50 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:36:51 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:36:51 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:36:52 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:36:52 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:36:52 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:36:52 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:36:52 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:37:22 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:37:31 | INFO     | STT             | STT Result: 'but honestly' (duration: 8.6s)
+2025-10-27 17:37:31 | INFO     | USER            | User Command: 'but honestly'
+2025-10-27 17:37:31 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'but honestly', 'confidence': 0.0}
+2025-10-27 17:37:31 | WARNING  | NLP             | Unknown intent: but honestly
+2025-10-27 17:37:35 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 17:37:35 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 17:37:35 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:37:35 | INFO     | SYSTEM          | Session ended at: 2025-10-27 17:37:35
+2025-10-27 17:37:35 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:38:02 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:38:02 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:38:02 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:38:02
+2025-10-27 17:38:02 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:38:02 | INFO     | SYSTEM          | System Event: DeskAI Starting Up (UI Mode)
+2025-10-27 17:38:02 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:38:03 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:38:03 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:38:03 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:38:03 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:38:04 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:38:04 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:38:04 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:38:08 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:38:16 | INFO     | STT             | STT Result: 'gray gray skies on spotify' (duration: 8.1s)
+2025-10-27 17:38:16 | INFO     | USER            | User Command: 'gray gray skies on spotify'
+2025-10-27 17:38:16 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'gray gray skies on spotify', 'confidence': 0.0}
+2025-10-27 17:38:16 | WARNING  | NLP             | Unknown intent: gray gray skies on spotify
+2025-10-27 17:38:24 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:38:35 | WARNING  | STT             | No speech recognized
+2025-10-27 17:38:57 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 17:38:57 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 17:38:57 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:38:57 | INFO     | SYSTEM          | Session ended at: 2025-10-27 17:38:57
+2025-10-27 17:38:57 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:39:08 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:39:08 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:39:08 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:39:08
+2025-10-27 17:39:08 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:39:08 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-27 17:39:08 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:39:09 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:39:09 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:39:09 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:39:09 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:39:10 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:39:10 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:39:10 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:40:05 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:40:05 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:40:05 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:40:05
+2025-10-27 17:40:05 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:40:05 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-27 17:40:05 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:40:05 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:40:06 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:40:06 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:40:06 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:40:06 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:40:06 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:40:06 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:40:17 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:40:28 | WARNING  | STT             | No speech recognized
+2025-10-27 17:40:52 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-27 17:40:52 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 17:40:53 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 17:40:53 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:40:53 | INFO     | SYSTEM          | Session ended at: 2025-10-27 17:40:53
+2025-10-27 17:40:53 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:45:28 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:45:28 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:45:28 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:45:28
+2025-10-27 17:45:28 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:45:28 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-27 17:45:28 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:45:28 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:45:29 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:45:29 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:45:29 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:45:30 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:45:30 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:45:30 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:45:37 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:45:48 | WARNING  | STT             | No speech recognized
+2025-10-27 17:46:20 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:46:20 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:46:20 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:46:20
+2025-10-27 17:46:20 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:46:20 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-27 17:46:20 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:46:21 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:46:21 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:46:21 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:46:21 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:46:22 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:46:22 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:46:22 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:46:25 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:46:33 | INFO     | STT             | STT Result: 'open spot' (duration: 7.6s)
+2025-10-27 17:46:33 | INFO     | USER            | User Command: 'open spot'
+2025-10-27 17:46:33 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'spot'}
+2025-10-27 17:46:34 | INFO     | EXECUTION       | Execution SUCCESS: [app] Opening spotify
+2025-10-27 17:46:34 | INFO     | TTS             | TTS Output: 'Opening spotify'
+2025-10-27 17:46:37 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:46:43 | INFO     | STT             | STT Result: 'open calculator' (duration: 5.6s)
+2025-10-27 17:46:43 | INFO     | USER            | User Command: 'open calculator'
+2025-10-27 17:46:43 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'calculator'}
+2025-10-27 17:46:43 | INFO     | EXECUTION       | Execution SUCCESS: [app] Opening calculator
+2025-10-27 17:46:43 | INFO     | TTS             | TTS Output: 'Opening calculator'
+2025-10-27 17:46:49 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-27 17:46:49 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 17:46:49 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 17:46:49 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:46:49 | INFO     | SYSTEM          | Session ended at: 2025-10-27 17:46:49
+2025-10-27 17:46:49 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:48:24 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:48:24 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:48:24 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:48:24
+2025-10-27 17:48:24 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:48:24 | INFO     | SYSTEM          | System Event: DeskAI Starting Up (UI Mode)
+2025-10-27 17:48:25 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:48:25 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:48:26 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:48:26 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:48:26 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:48:27 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:48:27 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:48:27 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:48:36 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:48:43 | INFO     | STT             | STT Result: 'opens forty one' (duration: 7.1s)
+2025-10-27 17:48:43 | INFO     | USER            | User Command: 'opens forty one'
+2025-10-27 17:48:43 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'opens forty one', 'confidence': 0.0}
+2025-10-27 17:48:43 | WARNING  | NLP             | Unknown intent: opens forty one
+2025-10-27 17:48:49 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 17:48:49 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 17:48:49 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:48:49 | INFO     | SYSTEM          | Session ended at: 2025-10-27 17:48:49
+2025-10-27 17:48:49 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:54:36 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:54:36 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:54:36 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:54:36
+2025-10-27 17:54:36 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:54:36 | INFO     | SYSTEM          | System Event: DeskAI Starting Up (UI Mode)
+2025-10-27 17:54:36 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:54:39 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:54:39 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:54:40 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:54:40 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:54:40 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:54:40 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:54:40 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:55:02 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 17:55:03 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 17:55:03 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:55:03 | INFO     | SYSTEM          | Session ended at: 2025-10-27 17:55:03
+2025-10-27 17:55:03 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:55:09 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:55:09 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 17:55:09 | INFO     | SYSTEM          | Session started at: 2025-10-27 17:55:09
+2025-10-27 17:55:09 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:55:09 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-27 17:55:09 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 17:55:10 | INFO     | INIT            | STT Engine initialized
+2025-10-27 17:55:10 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 17:55:11 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 17:55:11 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 17:55:11 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 17:55:11 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 17:55:11 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 17:55:16 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:55:23 | INFO     | STT             | STT Result: 'open portfolio' (duration: 6.6s)
+2025-10-27 17:55:23 | INFO     | USER            | User Command: 'open portfolio'
+2025-10-27 17:55:23 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'portfolio'}
+2025-10-27 17:55:31 | INFO     | EXECUTION       | Execution SUCCESS: [folder] Opening portfolio folder
+2025-10-27 17:55:31 | INFO     | TTS             | TTS Output: 'Opening portfolio folder'
+2025-10-27 17:55:39 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:55:47 | INFO     | STT             | STT Result: 'close all windows you' (duration: 7.6s)
+2025-10-27 17:55:47 | INFO     | USER            | User Command: 'close all windows you'
+2025-10-27 17:55:47 | DEBUG    | NLP             | Parsed Intent: {'intent': 'close_app', 'confidence': 0.8, 'target': 'all windows you'}
+2025-10-27 17:55:47 | INFO     | EXECUTION       | Execution SUCCESS: [close_app] Closing all windows you
+2025-10-27 17:55:47 | INFO     | TTS             | TTS Output: 'Closing all windows you'
+2025-10-27 17:56:17 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:56:28 | INFO     | STT             | STT Result: 'shut down you' (duration: 10.6s)
+2025-10-27 17:56:28 | INFO     | USER            | User Command: 'shut down you'
+2025-10-27 17:56:28 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'shut down you', 'confidence': 0.0}
+2025-10-27 17:56:28 | WARNING  | NLP             | Unknown intent: shut down you
+2025-10-27 17:56:45 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:56:52 | INFO     | STT             | STT Result: 'shut down' (duration: 6.5s)
+2025-10-27 17:56:52 | INFO     | USER            | User Command: 'shut down'
+2025-10-27 17:56:52 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'shut down', 'confidence': 0.0}
+2025-10-27 17:56:52 | WARNING  | NLP             | Unknown intent: shut down
+2025-10-27 17:57:02 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:57:11 | INFO     | STT             | STT Result: 'shut down' (duration: 8.6s)
+2025-10-27 17:57:11 | INFO     | USER            | User Command: 'shut down'
+2025-10-27 17:57:11 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'shut down', 'confidence': 0.0}
+2025-10-27 17:57:11 | WARNING  | NLP             | Unknown intent: shut down
+2025-10-27 17:57:19 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:57:26 | INFO     | STT             | STT Result: 'shut down oh down' (duration: 6.6s)
+2025-10-27 17:57:26 | INFO     | USER            | User Command: 'shut down oh down'
+2025-10-27 17:57:26 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'shut down oh down', 'confidence': 0.0}
+2025-10-27 17:57:26 | WARNING  | NLP             | Unknown intent: shut down oh down
+2025-10-27 17:57:37 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 17:57:44 | INFO     | STT             | STT Result: 'shut down space' (duration: 6.1s)
+2025-10-27 17:57:44 | INFO     | USER            | User Command: 'shut down space'
+2025-10-27 17:57:44 | DEBUG    | NLP             | Parsed Intent: {'intent': 'unknown', 'original_text': 'shut down space', 'confidence': 0.0}
+2025-10-27 17:57:44 | WARNING  | NLP             | Unknown intent: shut down space
+2025-10-27 17:57:55 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-27 17:57:55 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 17:57:55 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 17:57:55 | INFO     | SYSTEM          | ============================================================
+2025-10-27 17:57:55 | INFO     | SYSTEM          | Session ended at: 2025-10-27 17:57:55
+2025-10-27 17:57:55 | INFO     | SYSTEM          | ============================================================
+2025-10-27 20:10:11 | INFO     | SYSTEM          | ============================================================
+2025-10-27 20:10:11 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 20:10:11 | INFO     | SYSTEM          | Session started at: 2025-10-27 20:10:11
+2025-10-27 20:10:11 | INFO     | SYSTEM          | ============================================================
+2025-10-27 20:10:11 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-27 20:10:11 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 20:10:12 | INFO     | INIT            | STT Engine initialized
+2025-10-27 20:10:12 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 20:10:13 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 20:10:13 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 20:10:13 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 20:10:13 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 20:10:13 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 20:10:25 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-27 20:10:33 | INFO     | STT             | STT Result: 'open spot' (duration: 7.6s)
+2025-10-27 20:10:33 | INFO     | USER            | User Command: 'open spot'
+2025-10-27 20:10:33 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'spot'}
+2025-10-27 20:10:33 | INFO     | EXECUTION       | Execution SUCCESS: [app] Opening spotify
+2025-10-27 20:10:33 | INFO     | TTS             | TTS Output: 'Opening spotify'
+2025-10-27 20:10:47 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-27 20:10:47 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 20:10:48 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 20:10:48 | INFO     | SYSTEM          | ============================================================
+2025-10-27 20:10:48 | INFO     | SYSTEM          | Session ended at: 2025-10-27 20:10:48
+2025-10-27 20:10:48 | INFO     | SYSTEM          | ============================================================
+2025-10-27 20:12:52 | INFO     | SYSTEM          | ============================================================
+2025-10-27 20:12:52 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-27 20:12:52 | INFO     | SYSTEM          | Session started at: 2025-10-27 20:12:52
+2025-10-27 20:12:52 | INFO     | SYSTEM          | ============================================================
+2025-10-27 20:12:52 | INFO     | SYSTEM          | System Event: DeskAI Starting Up (UI Mode)
+2025-10-27 20:12:52 | INFO     | INIT            | TTS Engine initialized
+2025-10-27 20:12:53 | INFO     | INIT            | STT Engine initialized
+2025-10-27 20:12:53 | INFO     | INIT            | NLP Engine initialized
+2025-10-27 20:12:54 | INFO     | INIT            | Command Mapper initialized
+2025-10-27 20:12:54 | INFO     | INIT            | Execution Engine initialized
+2025-10-27 20:12:54 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-27 20:12:54 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-27 20:12:54 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-27 20:15:11 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-27 20:15:11 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-27 20:15:11 | INFO     | SYSTEM          | ============================================================
+2025-10-27 20:15:11 | INFO     | SYSTEM          | Session ended at: 2025-10-27 20:15:11
+2025-10-27 20:15:11 | INFO     | SYSTEM          | ============================================================
+2025-10-29 14:16:54 | INFO     | SYSTEM          | ============================================================
+2025-10-29 14:16:54 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-29 14:16:54 | INFO     | SYSTEM          | Session started at: 2025-10-29 14:16:54
+2025-10-29 14:16:54 | INFO     | SYSTEM          | ============================================================
+2025-10-29 14:16:54 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-29 14:16:54 | INFO     | INIT            | TTS Engine initialized
+2025-10-29 14:16:55 | INFO     | INIT            | STT Engine initialized
+2025-10-29 14:16:55 | INFO     | INIT            | NLP Engine initialized
+2025-10-29 14:16:56 | INFO     | INIT            | Command Mapper initialized
+2025-10-29 14:16:56 | INFO     | INIT            | Execution Engine initialized
+2025-10-29 14:16:57 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-29 14:16:57 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-29 14:16:57 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-29 14:17:08 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-29 14:17:08 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-29 14:17:08 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-29 14:17:08 | INFO     | SYSTEM          | ============================================================
+2025-10-29 14:17:08 | INFO     | SYSTEM          | Session ended at: 2025-10-29 14:17:08
+2025-10-29 14:17:08 | INFO     | SYSTEM          | ============================================================
+2025-10-30 17:27:26 | INFO     | SYSTEM          | ============================================================
+2025-10-30 17:27:26 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-30 17:27:26 | INFO     | SYSTEM          | Session started at: 2025-10-30 17:27:26
+2025-10-30 17:27:26 | INFO     | SYSTEM          | ============================================================
+2025-10-30 17:27:26 | INFO     | SYSTEM          | System Event: DeskAI Starting Up
+2025-10-30 17:27:27 | INFO     | INIT            | TTS Engine initialized
+2025-10-30 17:27:27 | INFO     | INIT            | STT Engine initialized
+2025-10-30 17:27:28 | INFO     | INIT            | NLP Engine initialized
+2025-10-30 17:27:28 | INFO     | INIT            | Command Mapper initialized
+2025-10-30 17:27:28 | INFO     | INIT            | Execution Engine initialized
+2025-10-30 17:27:28 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-30 17:27:28 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-30 17:27:28 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-30 17:27:32 | INFO     | WAKE            | Wake word detected - Activating
+2025-10-30 17:27:39 | INFO     | STT             | STT Result: 'open spotify' (duration: 6.6s)
+2025-10-30 17:27:39 | INFO     | USER            | User Command: 'open spotify'
+2025-10-30 17:27:39 | DEBUG    | NLP             | Parsed Intent: {'intent': 'open_app', 'confidence': 0.8, 'target': 'spotify'}
+2025-10-30 17:27:39 | INFO     | EXECUTION       | Execution SUCCESS: [app] Opening spotify
+2025-10-30 17:27:39 | INFO     | TTS             | TTS Output: 'Opening spotify'
+2025-10-30 17:27:45 | INFO     | SYSTEM          | System Event: Keyboard interrupt - User terminated
+2025-10-30 17:27:45 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-30 17:27:46 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-30 17:27:46 | INFO     | SYSTEM          | ============================================================
+2025-10-30 17:27:46 | INFO     | SYSTEM          | Session ended at: 2025-10-30 17:27:46
+2025-10-30 17:27:46 | INFO     | SYSTEM          | ============================================================
+2025-10-30 17:28:11 | INFO     | SYSTEM          | ============================================================
+2025-10-30 17:28:11 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-30 17:28:11 | INFO     | SYSTEM          | Session started at: 2025-10-30 17:28:11
+2025-10-30 17:28:11 | INFO     | SYSTEM          | ============================================================
+2025-10-30 17:28:11 | INFO     | SYSTEM          | System Event: DeskAI Starting Up (UI Mode)
+2025-10-30 17:28:11 | INFO     | INIT            | TTS Engine initialized
+2025-10-30 17:28:12 | INFO     | INIT            | STT Engine initialized
+2025-10-30 17:28:12 | INFO     | INIT            | NLP Engine initialized
+2025-10-30 17:28:13 | INFO     | INIT            | Command Mapper initialized
+2025-10-30 17:28:13 | INFO     | INIT            | Execution Engine initialized
+2025-10-30 17:28:13 | INFO     | INIT            | Wake Word Listener initialized: 'desk'
+2025-10-30 17:28:13 | INFO     | SYSTEM          | System Event: All modules initialized successfully
+2025-10-30 17:28:13 | INFO     | SYSTEM          | System Event: DeskAI started - Listening for wake word
+2025-10-30 17:28:40 | INFO     | SYSTEM          | System Event: DeskAI shutting down
+2025-10-30 17:28:41 | INFO     | SYSTEM          | System Event: DeskAI shutdown complete
+2025-10-30 17:28:41 | INFO     | SYSTEM          | ============================================================
+2025-10-30 17:28:41 | INFO     | SYSTEM          | Session ended at: 2025-10-30 17:28:41
+2025-10-30 17:28:41 | INFO     | SYSTEM          | ============================================================

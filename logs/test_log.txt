@@ -1,0 +1,48 @@
+2025-10-23 19:20:11 | INFO     | SYSTEM          | ============================================================
+2025-10-23 19:20:11 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-23 19:20:11 | INFO     | SYSTEM          | Session started at: 2025-10-23 19:20:11
+2025-10-23 19:20:11 | INFO     | SYSTEM          | ============================================================
+2025-10-23 19:20:11 | INFO     | TEST            | This is an informational message
+2025-10-23 19:20:11 | WARNING  | TEST            | This is a warning message
+2025-10-23 19:20:11 | DEBUG    | TEST            | This is a debug message (file only)
+2025-10-23 19:20:11 | ERROR    | TEST            | Division by zero error
+Exception: ZeroDivisionError: division by zero
+2025-10-23 19:20:11 | DEBUG    | TEST            | Full traceback:
+Traceback (most recent call last):
+  File "d:\DESKAI\error_logger.py", line 272, in <module>
+    x = 1 / 0
+        ~~^~~
+ZeroDivisionError: division by zero
+
+2025-10-23 19:20:24 | INFO     | SYSTEM          | ============================================================
+2025-10-23 19:20:24 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-23 19:20:24 | INFO     | SYSTEM          | Session started at: 2025-10-23 19:20:24
+2025-10-23 19:20:24 | INFO     | SYSTEM          | ============================================================
+2025-10-23 19:20:24 | INFO     | TEST            | This is an informational message
+2025-10-23 19:20:24 | WARNING  | TEST            | This is a warning message
+2025-10-23 19:20:24 | DEBUG    | TEST            | This is a debug message (file only)
+2025-10-23 19:20:24 | ERROR    | TEST            | Division by zero error
+Exception: ZeroDivisionError: division by zero
+2025-10-23 19:20:24 | DEBUG    | TEST            | Full traceback:
+Traceback (most recent call last):
+  File "d:\DESKAI\error_logger.py", line 272, in <module>
+    x = 1 / 0
+        ~~^~~
+ZeroDivisionError: division by zero
+
+2025-10-23 19:20:39 | INFO     | SYSTEM          | ============================================================
+2025-10-23 19:20:39 | INFO     | SYSTEM          | DeskAI Logging System Initialized
+2025-10-23 19:20:39 | INFO     | SYSTEM          | Session started at: 2025-10-23 19:20:39
+2025-10-23 19:20:39 | INFO     | SYSTEM          | ============================================================
+2025-10-23 19:20:39 | INFO     | TEST            | This is an informational message
+2025-10-23 19:20:39 | WARNING  | TEST            | This is a warning message
+2025-10-23 19:20:39 | DEBUG    | TEST            | This is a debug message (file only)
+2025-10-23 19:20:39 | ERROR    | TEST            | Division by zero error
+Exception: ZeroDivisionError: division by zero
+2025-10-23 19:20:39 | DEBUG    | TEST            | Full traceback:
+Traceback (most recent call last):
+  File "d:\DESKAI\error_logger.py", line 272, in <module>
+    x = 1 / 0
+        ~~^~~
+ZeroDivisionError: division by zero
+
