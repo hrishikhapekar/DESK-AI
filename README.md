@@ -19,6 +19,7 @@ DESK-AI is a Python-based desktop voice assistant that listens to user commands,
 - Text-to-speech libraries (configurable)
 - NLP utilities
 - Standard Python modules
+- Voice Model : [VOSK](https://alphacephei.com/vosk/models)
 
 ## Project structure
 
