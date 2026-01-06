@@ -41,6 +41,7 @@ Thumbs.db
 # Logs
 log/
 *.log
+logs/
 
 # Temporary files
 *.tmp
