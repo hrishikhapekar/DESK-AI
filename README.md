@@ -48,9 +48,10 @@ DESK-AI/
 ## Installation & Setup
 
 1. Clone the repository
-
+   ``` bash
    git clone https://github.com/hrishikhapekar/DESK-AI.git
    cd DESK-AI
+   ```
 
 2. Create & activate a virtual environment (recommended)
    ``` bash
