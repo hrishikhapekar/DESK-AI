@@ -123,6 +123,6 @@ This project is open-source and available under the MIT License.
 ---
 
 *Contributers of this Project*
-Akshay Thakur : @CodeArtisanAksahy
-Hrishi Khapekar : @hrishikhapekar
-Shrikant Agrawal : @agrawalsb
+1. Akshay Thakur : [@CodeArtisanAksahy](https://github.com/CodeArtisanAksahy)
+2. Hrishi Khapekar : [@hrishikhapekar](https://github.com/hrishikhapekar)
+3. Shrikant Agrawal : [@agrawalsb](https://github.com/agrawalsb)
